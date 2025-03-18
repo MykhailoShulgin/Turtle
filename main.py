@@ -10,8 +10,10 @@ turtle.shape("turtle")
 
 game = True
 
-idk = random.randint(0, 300)
+idk = random.randint(2, 300)
+
 if game == True:
+
     while range(idk):
         for i in range(idk):
             turtle.left(idk)
